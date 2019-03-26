@@ -14,10 +14,13 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Anidaniel List'),
         ),
-        body: Card(child: Column(children: <Widget>[
-          Image.asset('assets/food.jpg'),
-          Text('Sushi - JAPAN')
-        ],),),
+        body: Card(
+          child: Column(
+            children: <Widget>[
+              Image.asset('assets/food.jpg'),
+              Text('Sushi - JAPAN')
+            ],
+          ),
         ),
       ),
     );
